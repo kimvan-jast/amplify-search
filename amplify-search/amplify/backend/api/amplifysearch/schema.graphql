@@ -1,0 +1,9 @@
+type EmployeeInfo @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstname: String!
+  lastname: String!
+  workingyears: Int
+  jobtitle: String
+  more: String
+}
+ 
